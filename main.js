@@ -3,7 +3,7 @@ let target = document.querySelector('#dynamic');
 
 function randomString(){
   // 글자배열
-  let stringArr = ['Learning to HTML', 'Learning to CSS', 'Learning to JavaScript', 'Learning to React','Learning to Python'];
+  let stringArr = ['Learning HTML', 'Learning CSS', 'Learning JavaScript', 'Learning React','Learning Python'];
 
   // 랜덤으로 배열 호출 (math.floor 이용해서 소숫점 없이)
   let selectString = stringArr[Math.floor(Math.random() * stringArr.length)]
